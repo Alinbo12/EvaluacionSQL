@@ -1,4 +1,6 @@
-create schema if not exists minimarket;
+create schema if not exists minimarket; -- creación esquema
+
+-- creación de tablas y tablas relacionales (aquellas que llevan FK)
 
 create table `minimarket`. `proovedor` (
 `proovedor_id` INT NOT NULL AUTO_INCREMENT,
